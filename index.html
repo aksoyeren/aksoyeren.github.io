@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en" data-lt-installed="true"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="Eren Erdal Aksoy">
+    
+    <title>Eren Erdal Aksoy</title>
+    <meta content="Eren Erdal Aksoy&#39;s Homepage" name="description">
+
+    <link rel="stylesheet" href="./source/index.css">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="./source/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./source/toolkit-minimal.min.css">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="./source/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="./source/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./source/jumbotron.css" rel="stylesheet">
+
+    <!-- Responsive styles for publications -->
+    <style>
+      .publication-container {
+        max-width: 75%;
+        margin: 0 auto;
+      }
+
+      @media (max-width: 768px) {
+        .publication-container {
+          max-width: 100% !important;
+          margin: 0 !important;
+          padding: 0 10px !important;
+        }
+        .publication-row {
+          margin-right: 0 !important;
+          width: 100% !important;
+        }
+        .publication-image {
+          min-width: 80px !important;
+        }
+        .publication-content {
+          padding-left: 10px !important;
+        }
+      }
+
+      /* News folding styles */
+      .news-item.hidden {
+        display: none;
+      }
+
+      .news-toggle-btn {
+        background-color: transparent;
+        border: 1px solid #ad0516;
+        color: #ad0516;
+        padding: 5px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 13px;
+        margin-top: 8px;
+        transition: all 0.3s ease;
+      }
+
+      .news-toggle-btn:hover {
+        background-color: #ad0516;
+        color: white;
+      }
+    </style>
+
+    <script type="text/javascript" async="" src="./source/js"></script><script async="" src="./source/analytics.js.download"></script><script src="./source/ie-emulation-modes-warning.js.download"></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-91929246-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+    <style>
+      /* Forces all elements with an href to be dark red */
+          /* 1. Sets the base color for all links to Dark Red */
+      [href], [href]:visited {
+        color: #ad0516 !important;
+        transition: font-weight 0.2s; /* Optional: Makes the bolding feel smoother */
+      }
+
+      /* 2. Keeps the color Dark Red AND makes it Bold on hover */
+      [href]:hover {
+        color: #ad0516 !important;
+        font-weight: 600 !important;
+  }
+  </style>
+  
+  </head>
+
+  <body data-new-gr-c-s-check-loaded="14.1278.0" data-gr-ext-installed="">
+
+    <div class="container">
+        <nav class="navbar navbar-default navbar-static-top navbar-padded text-uppercase app-navbar">
+          <div class="container ">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed p-x-0" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-collapse">
+              <ul class="nav navbar-nav" style="padding: 0 0 0 130px;" >
+                <li class="nav-item">
+                  <a href="#top">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#news">News</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#publications">Publications</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- <div class="block text-center"> -->
+      <div id="top" class="text-center">
+        <blockquote class="pull-quote block-foreground">
+          <img class="img-circle" src="./images/eren_robot2.jpg">
+          <cite>  Dr. rer. nat. <b>Eren Erdal Aksoy</b><br>  
+            <span style="text-transform: none;">
+
+            <br>          
+            <a target="_blank" href="mailto:eren.aksoy@cs.lth.se" class="social-icon" >  <i class="fa-solid fa-square-envelope  fa-2x"></i> </a>  
+            <a target="_blank" href="https://www.linkedin.com/in/eren-erdal-aksoy-2411bb20a" class="social-icon" > <i class="fa-brands fa-linkedin fa-2x"></i> </a>  
+            <a target="_blank" href="http://scholar.google.de/citations?user=2xCdZQcAAAAJ&hl=en" class="social-icon" > <i class="ai ai-google-scholar-square fa-2x"></i> </a>
+            <br>            
+           
+        </cite>
+          <cite>
+              Researching on Semantic Scene Perception, <br> Robot Scene & Action Understanding, <br> Autonomous Driving,  and AI.
+            </cite>
+          <!-- <hr/> -->          
+          <p align="justify" style="font-size: 16px;"> 
+              I am currently employed as an Associate Professor within the <a target="_blank"  href="https://portal.research.lu.se/en/organisations/robotics-and-semantic-systems/">RSS group</a> at <a target="_blank"  href="https://www.lunduniversity.lu.se/">Lund University</a> in Sweden. 
+              Before moving to Lund, I served as an Associate Professor at <a target="_blank" href="https://www.hh.se/english.html">Halmstad University</a>. 
+              Between 2018 and 2021, I also worked as a visiting scholar in AI teams at companies such as <a target="_blank"  href="https://www.volvogroup.com/en/">Volvo Group Trucks Technology</a> and <a target="_blank" href="https://zenseact.com/">Zenseact AB</a> in Sweden. 
+              Prior to moving to Sweden, I spent three years as a postdoctoral research fellow at the <a target="_blank"  href="https://www.kit.edu/english/">Karlsruhe Institute of Technology</a> in 
+              the <a target="_blank" href="https://h2t.iar.kit.edu/">H2T group</a>, led by <a target="_blank" href="https://scholar.google.com/citations?user=65bIT4oAAAAJ&hl=en">Prof. Dr. Tamim Asfour.</a>
+              I received my Ph.D. from the <a target="_blank"  href="https://www.uni-goettingen.de/en/1.html">University of Göttingen</a>, where I subsequently stayed for 2.5 years as a postdoctoral researcher in the
+               <a target="_blank"  href="https://alexandria.physik3.uni-goettingen.de/cns-group/">Computational Neuroscience group</a> of <a target="_blank" href="https://www.uni-goettingen.de/en/58059.html">Prof. Dr. Florentin Wörgötter.</a> 
+              I am actively working on creating semantic representations of visual experiences to improve environment and action understanding for autonomous systems, such as robots and unmanned vehicles.</p>
+
+      <!------------------------------------------------------------------->
+      <!-- News Section -->
+      <!------------------------------------------------------------------->
+          <div id="news" class="news-section">
+            <div class="text-left">
+              <h4 style="margin: 5px 0 5px 0; color: #ad0516; font-size: 16px; text-align: center; font-weight: bold;">News</h4>
+              <div class="news-box">
+
+                <ul class="list-unstyled news-list" id="newsList">
+
+                  <li class="news-item">
+                    <span class="news-date" >2026.02</span>
+                    <span class="news-text">I have an <span class="highlight"> open PhD position</span> in my newly funded <a target="_blank" href="https://elliit.se/project/mouse-multimodal-multitask-learning-for-reliable-robot-situational-awareness-in-adverse-environmental-conditions/"> ELLIIT project MOUSE</a> at Lund University. Click <a target="_blank" href="https://lu.varbi.com/en/what:job/jobID:903830/"> here</a>  to apply before March 06!</span>
+                  </li> 
+                  <li class="news-item">
+                    <span class="news-date" >2026.02</span>
+                    <span class="news-text">I served as an  <span class="highlight"> opponent </span> for the defense of doctoral candidate  <a target="_blank" href="https://scholar.google.com/citations?user=N41zzdAAAAAJ&hl=en"> Mahir Gulzar</a> at the <a target="_blank" href="https://cs.ut.ee/en"> University of Tartu</a> in Estonia. </span>
+                  </li> 
+                  <li class="news-item">
+                    <span class="news-date" >2026.02</span>
+                    <span class="news-text">I am serving as an  <span class="highlight"> Associate Editor</span> for <a target="_blank" href="https://2026.ieee-iros.org/"> IEEE/RSJ IROS 2026</a>. </span>
+                  </li>                 
+                  <li class="news-item">
+                    <span class="news-date" >2025.12</span>
+                    <span class="news-text">I am serving as an <span class="highlight"> Editor</span> for <a target="_blank" href="https://2026.ieee-icra.org/"> IEEE ICRA 2026</a>. </span>
+                  </li>
+                  <li class="news-item" >
+                    <span class="news-date" >2025.11</span>
+                    <span class="news-text"> I gave an <span class="highlight"> invited talk </span> on "Robust Automated Driving in Extreme Weather" at the <a target="_blank"  href="https://elliit.se/news-and-events/focus-period-lund-2025/">ELLIIT Focus Period Symposium in Robot Learning</a>. </span>
+                  </li>
+                  <li class="news-item" >
+                    <span class="news-date" >2025.10</span>
+                    <span class="news-text"> I received an <span class="highlight"> "Outstanding Editor Award"</span> for the ELSP Journal on <a target="_blank"  href="https://www.elspub.com/journals/robot-learning/home">Robot Learning </a>. </span>
+                  </li>
+                  <li class="news-item" >
+                    <span class="news-date" >2025.09</span>
+                    <span class="news-text"> I was appointed as an  <span class="highlight"> Associate Professor </span> in the the <a target="_blank"  href="https://portal.research.lu.se/en/organisations/robotics-and-semantic-systems/">RSS group</a> at <a target="_blank"  href="https://www.lunduniversity.lu.se/">Lund University</a>. </span>
+                  </li>
+                  <li class="news-item" >
+                    <span class="news-date" >2025.06</span>
+                    <span class="news-text"> We have <span class="highlight">two IEEE/RSJ IROS papers</span> accepted! The first is on <a target="_blank"  href="https://ieeexplore.ieee.org/abstract/document/11246983/">Graph-based Action Recognition</a> while the second is about <a target="_blank"  href="https://ieeexplore.ieee.org/abstract/document/11247379/">Unsupervised Point Cloud Denoising</a>! </span>
+                  </li>
+              </div>
+            </div>
+          </div>
+        <!------------------------------------------------------------------->
+        <!------------------------------------------------------------------->
+        <!------------------------------------------------------------------->
+
+        </blockquote>
+      </div>
+
+      <!-- Publications Section -->
+      <div id="publications" class="block text-center" style="padding: 15px 0;">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <!-- <h3 style="margin: 0 0 20px 0; color: #216094; font-size: 24px;">Selected Publications</h3> -->
+              <div class="text-left publication-container">
+
+                <h4 style="margin: 0 0 15px 0; color: #ad0516; font-size: 16px; text-align: center; font-weight: bold;"> Selected Publications</h4>
+                
+                <!------------------------------------------------------------------->
+                <div class="row" style="margin-bottom: 10px; margin-right: 10px; padding: 12px; border: 1px solid #e0e0e0; border-radius: 6px; background-color: #fafafa;">
+                  <div class="col-xs-4 col-sm-4 col-md-4" style="min-width: 100px; flex-shrink: 0;">
+                    <img src="images/3doutdet.gif" alt="Chartist" style="width: 100%; height: 110px; object-fit: contain; border-radius: 4px; border: 1px solid #ddd; background-color: white;">
+                  </div>
+                  <div class="col-xs-8 col-sm-8 col-md-8">
+                    
+                    <h4 style="margin: 0 0 1px 0; color: #ad0516; font-size: 14px; line-height: 1.2;"><b>3D-UnOutDet: A Fast and Efficient Unsupervised Snow Removal Algorithm for 3D  Point Clouds</b></h4>
+                    <p style="margin: 0 0 1px 0; font-style: italic; color: #555; font-size: 12px;"> Raisuddin A.M., Gouigah I., <b>Aksoy E.E.</b> <br> IEEE/RSJ Inter. Conf. on Intelligent Robots and Systems (IROS), 2025</p>
+                    <a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/11247379" class="social-icon">  <i class="fa-regular fa-file-pdf" style="font-size: 28px;"></i> </a>  
+                    <a target="_blank" href="https://github.com/sporsho/3DUnOutDet" class="social-icon" > <i class="fa-brands fa-github " style="font-size: 28px;"></i> </a>  
+                    <a target="_blank" href="https://www.youtube.com/watch?v=cuhVL43Ec5Q" class="social-icon" > <i class="fa-regular fa-circle-play" style="font-size: 28px;"></i> </a>
+                    <a target="_blank" href="https://sporsho.github.io/3DUnOutDet" class="social-icon" > <i class="fa-solid fa-circle-info" style="font-size: 28px;"></i> </a>
+
+                  </div>
+                </div>
+                <!------------------------------------------------------------------->
+                
+                <!------------------------------------------------------------------->
+                <div class="row" style="margin-bottom: 10px; margin-right: 10px; padding: 12px; border: 1px solid #e0e0e0; border-radius: 6px; background-color: #fafafa;">
+                  <div class="col-xs-4 col-sm-4 col-md-4" style="min-width: 100px; flex-shrink: 0;">
+                    <img src="images/finonet.gif" alt="Chartist" style="width: 100%; height: 110px; object-fit: contain; border-radius: 4px; border: 1px solid #ddd; background-color: white;">
+                  </div>
+                  <div class="col-xs-8 col-sm-8 col-md-8">
+                    
+                    <h4 style="margin: 0 0 1px 0; color: #ad0516; font-size: 14px; line-height: 1.2;"><b>Multimodal detection and classification of robot manipulation failures</b></h4>
+                    <p style="margin: 0 0 1px 0; font-style: italic; color: #555; font-size: 12px;"> Inceoglu A., <b>Aksoy E.E.</b>, Sariel S.  <br> IEEE Robotics and Automation Letters, 2023</p>
+                    <a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/10372079" class="social-icon">  <i class="fa-regular fa-file-pdf" style="font-size: 28px;"></i> </a>  
+                    <a target="_blank" href="https://github.com/ardai/fino-net" class="social-icon" > <i class="fa-brands fa-github " style="font-size: 28px;"></i> </a>  
+                    <a target="_blank" href="https://www.youtube.com/watch?v=G_XYHcRstYg" class="social-icon" > <i class="fa-regular fa-circle-play" style="font-size: 28px;"></i> </a>
+                    <a target="_blank" href="https://air.cs.itu.edu.tr/projects/finonet.html" class="social-icon" > <i class="fa-solid fa-circle-info" style="font-size: 28px;"></i> </a>
+
+                  </div>
+                </div>
+                <!------------------------------------------------------------------->
+                
+                <!------------------------------------------------------------------->
+                <div class="row" style="margin-bottom: 10px; margin-right: 10px; padding: 12px; border: 1px solid #e0e0e0; border-radius: 6px; background-color: #fafafa;">
+                  <div class="col-xs-4 col-sm-4 col-md-4" style="min-width: 100px; flex-shrink: 0;">
+                    <img src="images/facedancer.gif" alt="Chartist" style="width: 100%; height: 110px; object-fit: contain; border-radius: 4px; border: 1px solid #ddd; background-color: white;">
+                  </div>
+                  <div class="col-xs-8 col-sm-8 col-md-8">
+                    
+                    <h4 style="margin: 0 0 1px 0; color: #ad0516; font-size: 14px; line-height: 1.2;"><b>Facedancer: Pose-and occlusion-aware high fidelity face swapping</b></h4>
+                    <p style="margin: 0 0 1px 0; font-style: italic; color: #555; font-size: 12px;"> Rosberg F., <b>Aksoy E.E.</b>, Fernandez A.F., Englund C.  <br> IEEE/CVF Winter Conf. on App. of Comp. Vision (WACV), 2023</p>
+                    <a target="_blank" href="https://openaccess.thecvf.com/content/WACV2023/html/Rosberg_FaceDancer_Pose-_and_Occlusion-Aware_High_Fidelity_Face_Swapping_WACV_2023_paper.html" class="social-icon">  <i class="fa-regular fa-file-pdf" style="font-size: 28px;"></i> </a>  
+                    <a target="_blank" href="https://github.com/felixrosberg/FaceDancer" class="social-icon" > <i class="fa-brands fa-github " style="font-size: 28px;"></i> </a>  
+                    <a target="_blank" href="https://www.youtube.com/watch?v=1xBWnlz3-LM" class="social-icon" > <i class="fa-regular fa-circle-play" style="font-size: 28px;"></i> </a>
+                    
+                  </div>
+                </div>
+                <!------------------------------------------------------------------->
+
+
+                <!------------------------------------------------------------------->
+                <div class="row" style="margin-bottom: 10px; margin-right: 10px; padding: 12px; border: 1px solid #e0e0e0; border-radius: 6px; background-color: #fafafa;">
+                  <div class="col-xs-4 col-sm-4 col-md-4" style="min-width: 100px; flex-shrink: 0;">
+                    <img src="images/titan-net-cropped.gif" alt="Chartist" style="width: 100%; height: 130px; object-fit: contain; border-radius: 4px; border: 1px solid #ddd; background-color: white;">
+                  </div>
+                  <div class="col-xs-8 col-sm-8 col-md-8">
+                    
+                    <h4 style="margin: 0 0 1px 0; color: #ad0516; font-size: 14px; line-height: 1.2;"><b>Semantics-aware Multi-modal Domain Translation: From LiDAR Point Clouds to Panoramic Color Images</b></h4>
+                    <p style="margin: 0 0 1px 0; font-style: italic; color: #555; font-size: 12px;"> Cortinhal T., Kurnaz F., <b>Aksoy E.E.</b> <br> IEEE/CVF Inter. Conf. on Computer Vision (ICCV) Workshops, 2021</p>
+                    <a target="_blank" href="https://openaccess.thecvf.com/content/ICCV2021W/AVVision/html/Cortinhal_Semantics-Aware_Multi-Modal_Domain_Translation_From_LiDAR_Point_Clouds_to_Panoramic_ICCVW_2021_paper.html" class="social-icon" >  <i class="fa-regular fa-file-pdf" style="font-size: 28px;"></i> </a>  
+                    <a target="_blank" href="https://github.com/TiagoCortinhal/TITAN-NET" class="social-icon" > <i class="fa-brands fa-github " style="font-size: 28px;"></i> </a>  
+                    <a target="_blank" href="https://www.youtube.com/watch?v=eV510t29TAc" class="social-icon" > <i class="fa-regular fa-circle-play" style="font-size: 28px;"></i> </a>
+                    <span style=" color: #333; padding: 2px 5px; border-radius: 3px; font-size: 12px; font-weight: bold; margin-left: 8px;">🏅Best Student Paper Award  </span>                    
+                    
+                  </div>
+                </div>
+                <!------------------------------------------------------------------->
+ 
+                <!------------------------------------------------------------------->
+                <div class="row" style="margin-bottom: 10px; margin-right: 10px; padding: 12px; border: 1px solid #e0e0e0; border-radius: 6px; background-color: #fafafa;">
+                  <div class="col-xs-4 col-sm-4 col-md-4" style="min-width: 100px; flex-shrink: 0;">
+                    <img src="images/salsanext.gif" alt="Chartist" style="width: 100%; height: 110px; object-fit: contain; border-radius: 4px; border: 1px solid #ddd; background-color: white;">
+                  </div>
+                  <div class="col-xs-8 col-sm-8 col-md-8">
+                    
+                    <h4 style="margin: 0 0 1px 0; color: #ad0516; font-size: 14px; line-height: 1.2;"><b>SalsaNext: Fast, Uncertainty-aware Semantic Segmentation of LiDAR Point Clouds</b></h4>
+                    <p style="margin: 0 0 1px 0; font-style: italic; color: #555; font-size: 12px;"> Cortinhal T., Tzelepis G., <b>Aksoy E.E.</b> <br> Int. Symposium on Visual Computing, 2020</p>
+                    <a target="_blank" href="https://link.springer.com/chapter/10.1007/978-3-030-64559-5_16" class="social-icon">  <i class="fa-regular fa-file-pdf" style="font-size: 28px;"></i> </a>  
+                    <a target="_blank" href="https://github.com/TiagoCortinhal/SalsaNext" class="social-icon" > <i class="fa-brands fa-github " style="font-size: 28px;"></i> </a>  
+                    <a target="_blank" href="https://youtu.be/MlSaIcD9ItU" class="social-icon" > <i class="fa-regular fa-circle-play" style="font-size: 28px;"></i> </a>
+                    
+                  </div>
+                </div>
+                <!------------------------------------------------------------------->
+
+                <!------------------------------------------------------------------->
+                <div class="row" style="margin-bottom: 10px; margin-right: 10px; padding: 12px; border: 1px solid #e0e0e0; border-radius: 6px; background-color: #fafafa;">
+                  <div class="col-xs-4 col-sm-4 col-md-4" style="min-width: 100px; flex-shrink: 0;">
+                    <img src="images/deep_ep_mem.gif" alt="Chartist" style="width: 100%; height: 110px; object-fit: contain; border-radius: 4px; border: 1px solid #ddd; background-color: white;">
+                  </div>
+                  <div class="col-xs-8 col-sm-8 col-md-8">
+                    
+                    <h4 style="margin: 0 0 1px 0; color: #ad0516; font-size: 14px; line-height: 1.2;"><b>Deep Episodic Memory for Robot Action Execution</b></h4>
+                    <p style="margin: 0 0 1px 0; font-style: italic; color: #555; font-size: 12px;"> Rothfuss J., Ferreira F., <b>Aksoy E.E.</b>, Asfour T. <br> IEEE Robotics and Automation Letters, 2018</p>
+                    <a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/8421022" class="social-icon">  <i class="fa-regular fa-file-pdf" style="font-size: 28px;"></i> </a>  
+                    <a target="_blank" href="https://github.com/jonasrothfuss/DeepEpisodicMemory" class="social-icon" > <i class="fa-brands fa-github " style="font-size: 28px;"></i> </a>  
+                    <a target="_blank" href="https://archive.iar.kit.edu/projects/episodicmemory/" class="social-icon" > <i class="fa-solid fa-circle-info" style="font-size: 28px;"></i> </a>
+                    
+                  </div>
+                </div>
+                <!------------------------------------------------------------------->
+
+                <!--
+                <p style="text-align: center; margin-top: 30px;">
+                  <a href="https://aksoyeren.github.io/research" target="_blank" style="color: #216094; text-decoration: none;">
+                    <span style="border: 1px solid #216094; padding: 8px 16px; border-radius: 4px;">View More Publications →</span>
+                  </a>
+                </p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Project Section -->
+      <div id="publications" class="block text-center" style="padding: 15px 0;">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <!-- <h3 style="margin: 0 0 20px 0; color: #216094; font-size: 24px;">Selected Publications</h3> -->
+              <div class="text-left publication-container">
+
+                <h4 style="margin: 0 0 15px 0; color: #ad0516; font-size: 16px; text-align: center; font-weight: bold;"> Projects</h4>
+                
+                <!------------------------------------------------------------------->
+                <div class="row" style="margin-bottom: 10px; margin-right: 10px; padding: 12px; border: 1px solid #e0e0e0; border-radius: 6px; background-color: #fafafa;">
+                  <div class="col-xs-4 col-sm-4 col-md-4" style="min-width: 100px; flex-shrink: 0;">
+                    <img src="images/mouse.png" alt="Chartist" style="width: 100%; height: 70px; object-fit: contain; border-radius: 4px; border: 1px solid #ddd; background-color: white;">
+                  </div>
+                  <div class="col-xs-8 col-sm-8 col-md-8">
+                    
+                    <h4 style="margin: 0 0 1px 0; color: #ad0516; font-size: 14px; line-height: 1.2;"><b> <a target="_blank"  href="https://elliit.se/project/mouse-multimodal-multitask-learning-for-reliable-robot-situational-awareness-in-adverse-environmental-conditions/">
+                      MOUSE: Multimodal Multitask Learning for Reliable Robot Situational Awareness  </a></b></h4>
+                    <p style="margin: 0 0 1px 0; font-style: italic; color: #555; font-size: 12px;"> <b>PI</b>, ELLIIT (with a co-PI (Gustaf Hendeby) from Linköping University)
+                    <br>2026-2030, 2 Parners, 10 M SEK </p>
+
+                  </div>
+                </div>
+                <!------------------------------------------------------------------->
+
+                <!------------------------------------------------------------------->
+                <div class="row" style="margin-bottom: 10px; margin-right: 10px; padding: 12px; border: 1px solid #e0e0e0; border-radius: 6px; background-color: #fafafa;">
+                  <div class="col-xs-4 col-sm-4 col-md-4" style="min-width: 100px; flex-shrink: 0;">
+                    <img src="images/roadview.png" alt="Chartist" style="width: 100%; height: 70px; object-fit: contain; border-radius: 4px; border: 1px solid #ddd; background-color: white;">
+                  </div>
+                  <div class="col-xs-8 col-sm-8 col-md-8">
+                    
+                    <h4 style="margin: 0 0 1px 0; color: #ad0516; font-size: 14px; line-height: 1.2;"><b> <a target="_blank"  href="https://roadview-project.eu/">ROADVIEW: Robust Automated Driving in Extreme Weather </a></b></h4>
+                    <p style="margin: 0 0 1px 0; font-style: italic; color: #555; font-size: 12px;"> <b>PI & Project coordinator</b>, HORIZON-CL5-2021-D6
+                    <br>2022-2026, 15 Parners, 7 Countries, ~9.7 M Euro </p>
+
+                  </div>
+                </div>
+                <!------------------------------------------------------------------->
+
+                <!------------------------------------------------------------------->
+                <div class="row" style="margin-bottom: 10px; margin-right: 10px; padding: 12px; border: 1px solid #e0e0e0; border-radius: 6px; background-color: #fafafa;">
+                  <div class="col-xs-4 col-sm-4 col-md-4" style="min-width: 100px; flex-shrink: 0;">
+                    <img src="images/smile.png" alt="Chartist" style="width: 100%; height: 70px; object-fit: contain; border-radius: 4px; border: 1px solid #ddd; background-color: white;">
+                  </div>
+                  <div class="col-xs-8 col-sm-8 col-md-8">
+                    
+                    <h4 style="margin: 0 0 1px 0; color: #ad0516; font-size: 14px; line-height: 1.2;"><b> <a target="_blank"  href="https://www.ri.se/en/automotive-and-future-transport/autonomous-vehicles/project/smile-iv">
+                      SMILE-IV: Safety Analysis and Verification / Validation of Machine Learning-based Systems </a></b></h4>
+                    <p style="margin: 0 0 1px 0; font-style: italic; color: #555; font-size: 12px;"> <b>PI</b>, Vinnova-FFI
+                    <br>2023-2026, 4 Parners, 14 M SEK </p>
+
+                  </div>
+                </div>
+                <!------------------------------------------------------------------->
+
+                <!------------------------------------------------------------------->
+                <div class="row" style="margin-bottom: 10px; margin-right: 10px; padding: 12px; border: 1px solid #e0e0e0; border-radius: 6px; background-color: #fafafa;">
+                  <div class="col-xs-4 col-sm-4 col-md-4" style="min-width: 100px; flex-shrink: 0;">
+                    <img src="images/sharpen.png" alt="Chartist" style="width: 100%; height: 70px; object-fit: contain; border-radius: 4px; border: 1px solid #ddd; background-color: white;">
+                  </div>
+                  <div class="col-xs-8 col-sm-8 col-md-8">
+                    
+                    <h4 style="margin: 0 0 1px 0; color: #ad0516; font-size: 14px; line-height: 1.2;"><b> <a target="_blank"  href="https://www.vinnova.se/en/p/sharpen---scalable-highly-automated-vehicles-with-robust-perceptionn/">
+                      SHARPEN: Scalable Highly Automated Vehicles with Robust Perception </a></b></h4>
+                    <p style="margin: 0 0 1px 0; font-style: italic; color: #555; font-size: 12px;"> <b>PI</b>, Vinnova-FFI
+                    <br>2019-2022, 5 Parners, 8.8 M SEK </p>
+
+                  </div>
+                </div>
+                <!------------------------------------------------------------------->
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+            <!-- Contact Section -->
+      <div id="contact" class="block text-center" style="padding: 15px 0;">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <!-- <h3 style="margin: 0 0 20px 0; color: #216094; font-size: 24px;">Selected Publications</h3> -->
+              <div class="text-left publication-container">
+
+                <h4 style="margin: 0 0 15px 0; color: #ad0516; font-size: 16px; text-align: center; font-weight: bold;"> Contact Information</h4>
+                
+                <div class="row" style="margin-bottom: 10px; margin-right: 10px; padding: 12px; border: 1px solid #e0e0e0; border-radius: 6px; background-color: #fafafa;">
+ 
+                <p align="center" style="font-size: 16px;"> 
+                  
+                  Lund University <br/>
+						      Department of Computer Science <br/>
+                  Robotics and Semantic Systems <br/>
+                  Klas Anshelms väg 10, <br/>
+						      Box 118, 221 00 Lund, Sweden <br/>
+						      Email: eren.aksoy[at]cs.lth.se  </p>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      </div>
+
+      <div class="block app-block-footer text-center">
+        <footer class="footer">
+          <p>© Eren Erdal Aksoy 2026</p>
+        </footer>
+      </div>
+
+      
+
+     
+    <!-- /container -->
+
+    <!-- processing -->
+    <!-- <script src="./js/sketch.js"></script> -->
+
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>-->
+    <script src="./source/jquery-3.1.1.min.js.download"></script>
+    <script src="./source/toolkit.min.js.download"></script>
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
